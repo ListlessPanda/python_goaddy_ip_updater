@@ -51,7 +51,7 @@ class Bot:
         except:
             return False
         
-    def update_live_ip(self):
+    def get_live_ip(self):
         if(self.internet_access()):
             try:
                 self.live_ip = urllib.request.urlopen('https://ident.me').read().decode('utf8')
