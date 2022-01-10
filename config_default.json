@@ -1,0 +1,6 @@
+{
+    "domain_name" : "example.com",
+    "secret_key" : "",
+    "public_key" : "",
+    "minutes" : 120
+}
