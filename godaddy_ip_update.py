@@ -63,7 +63,7 @@ class Bot:
     def compare_ip(self):
         try:
             self.update_domain_ip()
-            self.update_live_ip()
+            self.get_live_ip()
             if(self.domain_ip != self.live_ip):
                 try:
                     self.update_domain_ip()
