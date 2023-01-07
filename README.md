@@ -1,4 +1,4 @@
-# python_godaddy_ip_update
+# Python godaddy IP Updater (No Longer Working)
  Python script to update domain IP for godaddy
 
 1. Get an API key at : https://developer.godaddy.com/ and make sure it's a Production type
